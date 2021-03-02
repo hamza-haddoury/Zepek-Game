@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head>
+  <meta charset="utf-8">
+  <title>Zepek Game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/java.js">
+  </script>
+</head>
+<a href="index.html"><h1> Zepek Game </h1></a>
+<body id="bc">
+<p class="welcome"> Défiez le temps dans  <span class='red'> Contre-la-montre</span> ! </p>
+<div class="Accueil" id="AccueilM1">
+    <h2 onclick="start()" id="Start"> Start </h2>
+	<h2 onclick="start()" id="Start2"> Restart</h2>
+	<div id='window'>
+  		<p id='Tour'>Tour :</p>
+  		<p id="writcalcul"></p>
+  		<input type="text" id="input" name="input" value="">
+      <div id="marge">
+        <p id='GM'>Game Over</p>
+      </div>
+      <div id="Commentaire">
+        <img id="bitleft" src="images/Samy-bit.jpeg">
+        <img id="bitright" src="images/HJ-bit.jpeg">
+  		  <p id='Annonces'> </p>
+        <p id="Remarque"></p>
+      </div>
+	</div>
+</div>
+<div id="container">
+  <img id="score_img" src="images/couronne.png">
+  <p class="ScoreT"> Score </p>
+  <p id="score"></p>
+</div>
+<div id="container2">
+  <img id="temps_img" src="images/sablier2.png">
+  <p class="TempsT"> Temps </p>
+  <p id="time"> </p>
+</div>
+<img id="hs_image" src="images/hs.png">
+<p id="high_score2"> </p>
+</div>
+</body>
+</html>

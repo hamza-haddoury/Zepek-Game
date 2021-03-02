@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Zepek Game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/java.js">
+  </script>
+<!--<img class="logo" src="images/Logo.png">-->
+</head>
+<body>
+	<h1 id="title" onclick="welcome()"> Zepek Game </h1>
+ <button id='buttonwlcm' onclick="welcome()"> <span class="menu"> Commencer</span> </button>
+<p id="wlcm" class="welcome"> Bienvenue dans le <span class='red'> Zepek Game</span> ! Veuillez sélectionner un mode de jeu. </p>
+<div class="Accueil" id='Accueil2'> 
+  <button class='button1' onclick='jeu1()'> <span class="menu"> Ruée vers la victoire</span> </button></a>
+  <button class='button2' onclick='jeuu2()'> <span class="menu"> Contre-la-Montre</span> </button></a>
+  <button onclick="Att()" class='button3'> <span class="menu"> Mode Courbon</span> </button>
+</div>
+<div class="Accueil" id="AccueilM1">
+    <h2 onclick="start()" id="Start"> Start </h2>
+	<div id='window'>
+		<h2 onclick="start()" id="Start2"> Restart</h2>
+  		<p id='Tour'>Tour :</p>
+  		<p id="writcalcul"></p>
+  		<input type="text" id="input" name="input" value="">
+      <div id="marge">
+        <p id='GM'>Game Over</p>
+      </div>
+      <div id="Commentaire">
+        <img id="bitleft" src="images/Samy-bit.jpeg">
+        <img id="bitright" src="images/HJ-bit.jpeg">
+  		  <p id='Annonces'> </p>
+        <p id="Remarque"></p>
+      </div>
+	</div>
+</div>
+<div id="container">
+  <img id="score_img" src="images/couronne.png">
+  <p class="ScoreT"> Score </p>
+  <div id="bye1"><p id="score"></p></div>
+</div>
+<div id="container2">
+  <img id="temps_img" src="images/sablier2.png">
+  <p class="TempsT"> Temps </p>
+  <div id="bye2"><p id="time"> </p></div>
+</div>
+<img id="hs_image" src="images/hs.png">
+<p id="high_score"> </p>
+<p id="high_score2"> </p>
+</div>
+</body> 
+</html>
